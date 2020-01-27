@@ -6,10 +6,10 @@ Detach 1st example--Output is interesting..!
 
 ### Dynamic Termination of Thread
 
-1. [](https://thispointer.com/c11-how-to-stop-or-terminate-a-thread/)
-2. [](https://www.bo-yang.net/2017/11/19/cpp-kill-detached-thread)
-3. [](https://stackoverflow.com/questions/12207684/how-do-i-terminate-a-thread-in-c11)
-4. [](https://www.tutorialspoint.com/how-do-i-terminate-a-thread-in-cplusplus11)
+1. [a](https://thispointer.com/c11-how-to-stop-or-terminate-a-thread/)
+2. [b](https://www.bo-yang.net/2017/11/19/cpp-kill-detached-thread)
+3. [c](https://stackoverflow.com/questions/12207684/how-do-i-terminate-a-thread-in-c11)
+4. [d](https://www.tutorialspoint.com/how-do-i-terminate-a-thread-in-cplusplus11)
 
 Reference
 
