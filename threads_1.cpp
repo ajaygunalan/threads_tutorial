@@ -12,6 +12,8 @@ void run(int count) {
 int main() {
 	std::thread t1(run, 10);
 	cout << "Before Join \n" << endl;
+	
+	t1.detach();
 	t1.detach();
 
 	if (t1.joinable())
