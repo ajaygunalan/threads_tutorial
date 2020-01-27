@@ -2,6 +2,9 @@
 
 ```g++ -std=c++11 -pthread threads_1.cpp -o threads_1```
 
+Detach 1st example--Output is interesting..!
+
+
 Reference
 
 * [source](https://www.youtube.com/watch?v=q3-5sDe6lzg&list=PLk6CEY9XxSIAeK-EAh3hB4fgNvYkYmghp&index=3)
