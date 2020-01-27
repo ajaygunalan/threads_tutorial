@@ -5,14 +5,14 @@ using namespace std;
 
 void run(int count) {
 	while(count --> 0)
-		cout << "Inside run" <<endl;
+		cout << count <<"Inside run" <<endl;
 	std::this_thread::sleep_for(chrono::seconds(3));
 }
 
 int main() {
 	std::thread t1(run, 10);
 	cout << "Before Join \n" << endl;
-	t1.join();
+	t1.detach();
 
 	if (t1.joinable())
 		t1.join();
