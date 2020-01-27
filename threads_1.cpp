@@ -13,7 +13,9 @@ int main() {
 	std::thread t1(run, 10);
 	cout << "Before Join \n" << endl;
 	t1.join();
-	t1.join();
+
+	if (t1.joinable())
+		t1.join();
 	cout << "After Join  \n" << endl;
 	return 0;
 }
