@@ -14,10 +14,10 @@ int main() {
 	cout << "Before Join \n" << endl;
 	
 	t1.detach();
-	t1.detach();
+
 
 	if (t1.joinable())
-		t1.join();
+		t1.detach();
 	cout << "After Join  \n" << endl;
 	return 0;
 }
